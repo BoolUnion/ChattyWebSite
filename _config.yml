@@ -10,10 +10,10 @@ playstore_link                            :                                     
 presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
-app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  : Chatty                                    # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_icon                                  : assets/appicon.png                        # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name                                  : 补完计划                                   # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : 基于世界先进大模型的 AI 聊天机器人，能让您安全高效地和 OpenAI 的强大语言模型进行对话，轻松拥有自己的私人智能助理，解决生活、工作上的任何问题，无广告，界面简洁，专注于研发更好的人机交互体验。
+app_description                           : 补完计划是一个通过与 AI 机器人对话，来辅助您完成翻译、写作和旅游计划等一系列任务的工具。
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -23,7 +23,7 @@ enable_smart_app_banner                   : true                                
 your_name                                 : Yuchuan Gan                               
 your_link                                 : https://github.com/ganyuchuan                     
 your_city                                 : Beijing                                
-email_address                             : bluesgump@gmail.com
+email_address                             : bluesgump@foxmail.com
 facebook_username                         :                                           
 instagram_username                        :
 twitter_username                          :
@@ -36,28 +36,24 @@ mastodon_link                             :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : 安全高效地使用 ChatGPT
-    description                           : 无需 OpenAI 账号，身处国内即可通过 Chatty 享受 ChatGPT 技术
+  - title                                 : 拥有自己的 AI 聊天机器人
+    description                           : 可以和 AI 机器人对话，来快速完成您的翻译、写作和旅游计划等需求
     fontawesome_icon_name                 : magic
     
-  - title                                 : AI 生成内容更快
-    description                           : 更快的 AI 聊天机器人，内容生成相比官方 ChatGPT 快了30%
-    fontawesome_icon_name                 : mobile
-
-  - title                                 : 多平台
-    description                           : 支持多平台，您可以在 Web、Android 上面使用 Chatty；
-    fontawesome_icon_name                 : play-circle
-
-  - title                                 : iCloud 云同步
-    description                           : 支持多设备数据自动同步 iCloud
+  - title                                 : 支持 iCloud
+    description                           : 自动同步不同设备之间聊天数据
     fontawesome_icon_name                 : sync
 
-  - title                                 : Markdown 渲染，代码高亮
-    description                           : 聊天支持多种内容样式，包括 Markdown/HTML/...文本及 JavaScript/Python/SQL/...代码
+  - title                                 : 跨平台
+    description                           : 您可以在 Web、Android、iOS 上面使用补完计划
+    fontawesome_icon_name                 : play-circle
+
+  - title                                 : 富文本渲染
+    description                           : 能够展示 Markdown/HTML/...文本及 JavaScript/Python/SQL/...代码；
     fontawesome_icon_name                 : adjust
   
   - title                                 : 更便宜，更好用
-    description                           : 更便宜的会员服务，仅需18元/月即可体验以上所有功能
+    description                           : 会员仅需¥18.0/月，体验30天后再付费
     fontawesome_icon_name                 : star
 
   - title                                 : # New Feature Title
